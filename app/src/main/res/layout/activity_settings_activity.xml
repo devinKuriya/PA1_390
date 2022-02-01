@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Comp1_InputName"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
+    tools:context=".SettingsActivity">
+
+    <include
+        android:id="@+id/settingtoolbar"
+        layout="@layout/toolbar"
+        android:showAsAction="always"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/Comp1name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="200dp"
+        android:text="@string/Comp1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/settingtoolbar"
+        tools:text="@string/Comp1" />
+
+    <EditText
+        android:id="@+id/Comp1_inputname"
+        android:layout_width="269dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="100dp"
+        android:editable="false"
+        android:ems="10"
+        android:hint="Computer 1 name goes here"
+        android:maxLength="20"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Comp1name" />
+
+    <TextView
+        android:id="@+id/Comp2name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="200dp"
+        android:text="@string/Comp2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Comp1_inputname" />
+
+    <EditText
+        android:id="@+id/Comp2_inputname"
+        android:layout_width="257dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="151dp"
+        android:editable="false"
+        android:ems="10"
+        android:hint="Computer 2 name goes here"
+        android:maxLength="20"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Comp2name" />
+
+    <TextView
+        android:id="@+id/Comp3name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="200dp"
+        android:text="@string/Comp3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Comp2_inputname" />
+
+    <EditText
+        android:id="@+id/Comp3_inputname"
+        android:layout_width="262dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="149dp"
+        android:editable="false"
+        android:ems="10"
+        android:hint="Computer 3 name goes here"
+        android:maxLength="20"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Comp3name" />
+
+    <TextView
+        android:id="@+id/MaxCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="200dp"
+        android:text="@string/MaxCount"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Comp3_inputname" />
+
+    <EditText
+        android:id="@+id/Maxcount_input"
+        android:layout_width="264dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="144dp"
+        android:editable="false"
+        android:ems="10"
+        android:hint="Max count goes here"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MaxCount" />
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/Save"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Maxcount_input" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Toggle Event Names"
+        android:id="@+id/Names"
+        ></item>
+    <item android:title="Toggle Event Buttons"
+        android:id="@+id/Buttons"
+        ></item>
+
+
+
+</menu>

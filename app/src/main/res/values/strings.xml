@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PA1_390</string>
+    <string name="buttonSettings">Settings</string>
+    <string name="buttonData">SHOW MY COUNTS</string>
+    <string name="Comp1">Computer Name 1</string>
+    <string name="Comp2">Computer Name 2</string>
+    <string name="Comp3">Computer Name 3</string>
+    <string name="MaxCount">Maximum Count</string>
+    <string name="Reset">Reset</string>
+    <string name="Save">Save</string>
+</resources>
